@@ -4,7 +4,7 @@ import "./dashboard.css"
 import Chart from './chart';
 import Sales from './sales';
 import Navbar from './navbar';
-import icon from './images/Icon.jpg'
+import icon from './images/icon.jpg'
 import greenArrow from './images/line1.jpg'
 import smallGreen from './images/smallGreen.png'
 import icon2 from './images/icon2.jpg'
