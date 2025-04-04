@@ -9,9 +9,19 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@mui/icons-material": "^5.15.19",
+    "chart.js": "^4.4.3",
+    "dayjs": "^1.11.11",
+    "next": "15.2.4",
+    "next-auth": "^4.24.11",
     "react": "^19.0.0",
+    "react-chartjs-2": "^5.2.0",
     "react-dom": "^19.0.0",
-    "next": "15.2.4"
+    "react-icons": "^5.5.0",
+    "react-pro-sidebar": "^1.1.0",
+    "react-tooltip": "^5.28.0",
+    "tailwind-datepicker-react": "^1.4.3",
+    "use-local-storage": "^3.0.0"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
