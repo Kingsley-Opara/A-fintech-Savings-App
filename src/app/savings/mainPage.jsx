@@ -26,14 +26,14 @@ function MainPage() {
 
     }
   return (
-    <main className='ml-4 w-[90%] relative h-fit'>
+    <main className='ml-4 w-[90%] relative h-fit max-sm:ml-1'>
         <Navbar/>
         <section className='flex ml-5 mt-10 max-md:flex-col space-y-6'>
 
 
             <div className='w-1/2'>
             
-                <div className='bg-[#FD6F41] text-white p-10 rounded-xl w-[80%] max-md:w-[95%]'>
+                <div className='bg-[#FD6F41] text-white p-10 rounded-xl w-[80%] max-md:w-fit'>
                     <div className='ml-[30%] self-center place-content-center flex flex-col space-y-5'>
                         <p className='text-3xl'>Total Savings</p>
                         <p className='text-xl'>${savings}</p>
