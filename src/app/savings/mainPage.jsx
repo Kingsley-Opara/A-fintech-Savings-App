@@ -31,7 +31,7 @@ function MainPage() {
         <section className='flex ml-5 mt-10 max-md:flex-col space-y-6'>
 
 
-            <div className='w-1/2 max-sm:w-2/3'>
+            <div className='w-1/2 max-sm:w-full'>
             
                 <div className='bg-[#FD6F41] text-white p-10 rounded-xl w-[80%] max-md:w-fit'>
                     <div className='ml-[30%] self-center place-content-center flex flex-col space-y-5'>
