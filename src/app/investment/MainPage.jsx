@@ -9,13 +9,13 @@ import { GiSwapBag } from "react-icons/gi";
 
 function MainPage() {
   return (
-    <main className='ml-4 w-[90%]'>
+    <main className='ml-4 w-[90%] max-sm:ml-1'>
         <Navbar/>
-        <section className='flex flex-col mt-10 ml-6'>
+        <section className='flex flex-col mt-10 ml-6 max-sm:ml-0'>
 
             <div className='flex space-x-6 max-md:flex-col'>
-                <div className='w-3/5 bg-white dark:bg-black shadow-md'><PieChart/></div>
-                <div className='flex-1 bg-white dark:bg-black shadow-md p-4 max-md:mt-8'>
+                <div className='w-3/5 bg-white dark:bg-gray-950 shadow-md max-sm:ml-6'><PieChart/></div>
+                <div className='flex-1 bg-white dark:bg-gray-950 shadow-md p-4 max-md:mt-8'>
                     <div>
                         <p className='text-gray-400 dark:text-gray-200 text-sm mt-1'>
                             Your Total Asset Portfolio
@@ -41,7 +41,7 @@ function MainPage() {
 
             <div className='grid lg:grid-cols-3 gap-3 max-md:grid-cols-2 max-sm:grid-cols-1'>
 
-                <div className='bg-white shadow-md dark:bg-black text-black dark:text-white mt-10 p-6' >
+                <div className='bg-white shadow-md dark:bg-gray-950 text-black dark:text-white mt-10 p-6' >
                     <div className='flex flex-col space-y-3' >
                         <div className='flex place-content-between '>
                             <div className='flex space-x-4 '>
@@ -90,7 +90,7 @@ function MainPage() {
                     </div>
                 </div>
 
-                <div className='bg-white shadow-md dark:bg-black text-black dark:text-white mt-10 p-6' >
+                <div className='bg-white shadow-md dark:bg-gray-950 text-black dark:text-white mt-10 p-6' >
                     <div className='flex flex-col space-y-3' >
                         <div className='flex place-content-between '>
                             <div className='flex space-x-4 '>
