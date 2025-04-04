@@ -10,8 +10,8 @@ import smallGreen from './images/smallGreen.png'
 import icon2 from './images/icon2.jpg'
 import line2 from './images/line2.jpg'
 import smallRed from './images/smallRed.jpg'
-import icon3 from './images/Icon3.jpg'
-import icon4 from './images/Icon4.jpg'
+import icon3 from './images/icon3.jpg'
+import icon4 from './images/icon4.jpg'
 import LastOrders from './lastOrders';
 import TopPlatform from './topplatform';
 import { useState } from 'react';
